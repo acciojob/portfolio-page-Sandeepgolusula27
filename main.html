@@ -7,6 +7,42 @@
 </head>
 
 <body>
+	To create your portfolio page, you need to structure the HTML within the <body> tags to include an image, your name, a LinkedIn link, and the specifically named sections for your skills and projects.
+
+Portfolio Implementation
+You can use the following code to meet all the requirements:
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="profile-picture.jpg" alt="A portrait of [Your Name]" width="150">
+        <h1>[Your Name]</h1>
+        <p>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">View my LinkedIn Profile</a>
+        </p>
+    </header>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>I am proficient in HTML5, CSS3, JavaScript (ES6+), and responsive web design.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li><strong>Weather Dashboard:</strong> A real-time weather application using OpenWeather API.</li>
+            <li><strong>Task Manager:</strong> A productivity app built with React and local storage.</li>
+            <li><strong>Personal Blog:</strong> A responsive blog template created with HTML and CSS.</li>
+        </ul>
+    </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
